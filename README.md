@@ -24,15 +24,18 @@ Getting color by HTML Name
 
 ## Usage
 
---rgb R G B
+    python TerminalColors.py --rgb R G B
+
 Prints the color by getting it from its RGB value,
 the values must be in the range of 0-255
 
---hex HEX
+    python TerminalColors.py --hex HEX
+
 Prints the color by getting it from its hexadecimal value,
 this must be given without the # character
 
---html NAME
+    python TerminalColors.py --html NAME
+
 Tries to find the color by its name in the colors file.
 It uses a CSV list by codebrainz (Thank You!):
 https://github.com/codebrainz/color-names.git
