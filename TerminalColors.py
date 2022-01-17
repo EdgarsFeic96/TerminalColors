@@ -1,4 +1,3 @@
-from operator import contains
 from sys import argv
 
 CODE = "\033[38;2;{};{};{}m"
